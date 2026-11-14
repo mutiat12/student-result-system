@@ -1,4 +1,4 @@
-def calculate_total(scores);
+def calculate_total(scores):
     return sum(scores.values())
 
 def calculate_average(scores):
