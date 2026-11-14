@@ -8,11 +8,11 @@ class Student:
        self.gender = gender
        self.dob = dob
        self.scores = {}
-       self.data_entered = None 
+       self.date_entered = None 
 
     def set_scores(self, scores):
         self.scores = scores
-        self.data_entered = datetime.now().strftime("%Y-%m-%d %H: %M")
+        self.date_entered = datetime.now().strftime("%Y-%m-%d %H: %M")
 
     def to_dict(self):
         return {

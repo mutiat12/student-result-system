@@ -27,5 +27,4 @@ def load_students():
         print("Load finished")
 
 
-save_students([{"student_id": "NH-001", "name": "Ada-obi"}])
-print(load_students())
+
